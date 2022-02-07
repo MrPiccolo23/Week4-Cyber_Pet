@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Cyper Pet</title>
+</head>
+<body>
+    <div class ="text-box">
+        <h1>Cyber Pet</h1>
+        <p>Top left click Feed button</p>
+    </div>
+<div id="petImage" class="alignCtr backMe cornered floatLeft">
+	<div id="petTop">^^^^^^^^</div>
+	<div id="petEyes">o....o</div>
+	<div id="petMouth">=v====v=</div>
+	<div id="petBtm">vvvvvvvv</div>
+
+</div>
+    <div id="hud">
+		
+	<div id="labels" class="backMe floatLeft">
+		<div id="labelH">Cat Health</div>
+		<div id="labelVM">Vitamin B</div>
+		<div id="labelVR">Vitamin D</div>
+	</div>
+		<div id="meters" class="backMe floatLeft">
+		<div id="mtrH" class="cornered heightFix"></div>
+		<div id="mtrVM" class="cornered heightFix"></div>
+		<div id="mtrVR" class="cornered heightFix"></div>
+	</div>
+	<div id="buttons" class="backMe floatLeft">
+		<div id="btnVM" class="feedBtn alignCtr cornered heightFix">Feed</div>
+		<div id="btnVR" class="feedBtn alignCtr cornered heightFix">Feed</div>
+	</div>
+</div>
+<!--
+Feedback div display state is controlled by Javascript. It will appear under everything else.
+-->
+<div id="feedback" class="alignCtr backMe cornered">Your pet is DEAD! Refresh to play again.</div>
+</body>
+<script src="./app.js"></script>
+</html>
